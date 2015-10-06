@@ -1,0 +1,6 @@
+index.php ve kontrol_istek, kontrol_istek2 ler  checkbx uygulamasý için ve kredi talepleri için çalýþýyor 
+jquery ile kontrol etmeye yarýyorlar
+
+
+istek.php ve uye_istek, uye_istek2 ler checkbox uyglamasý için üyelik isteklerini jquery ile kontrol etmeye
+yarýyorlar
