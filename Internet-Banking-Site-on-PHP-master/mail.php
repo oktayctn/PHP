@@ -222,8 +222,8 @@ if(isset($_POST['ad']) && isset($_POST['soyad']) && isset($_POST['eposta']) && i
       $konu = strip_tags($_POST['konu']);
       $mesaj = strip_tags($_POST['mesaj']);
       $icerik = 'Ad: ' . $ad . '<br/>E-Posta: '. $eposta . '<br/>' . $mesaj;
-	  $headers="From: harun tamokur <htamokur38@gmail.com>"."\r\n"."Cc:".$eposta;
-      mail('htamokur38@gmail.com', $konu, $icerik,$headers); 
+	  $headers="From: harun tamokur <email_adress>"."\r\n"."Cc:".$eposta;
+      mail('email_adress', $konu, $icerik,$headers); 
       echo "<center><h4>Mesajınız Gönderildi!<h4><p> <br>İletişim sayfasına yönlendiriliyorsunuz...</p></center> ";
 	  echo '<meta http-equiv="refresh" content="6;URL=iletisim.php">
 ';
