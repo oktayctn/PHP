@@ -67,7 +67,7 @@ if(isset($_POST['name'])) {
 	  
       $icerik = 'Sayın: ' . $ad ." ".$soyad. '
 	  E-Posta: '. $mail . '' . $mesaj;
-	  $headers="From: harun tamokur <"."h.tamokur@yahoo.com.tr".">"."\r\n"."Cc:".$mail;
+	  $headers="From: harun tamokur <"."mail_adress".">"."\r\n"."Cc:".$mail;
       mail($mail, $konu, $icerik,$headers); 
       echo "<center><h4>Mesajınız Gönderildi!<h4><p> <br>İletişim sayfasına yönlendiriliyorsunuz...</p></center> ";
 	  echo '<meta http-equiv="refresh" content="6;URL=iletisim.php">';
